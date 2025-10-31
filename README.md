@@ -1,14 +1,15 @@
-# Vite React JSX Template
+# Vite React JSX + Tailwind CSS Template
 
-A modern React application built with Vite for fast development and optimized builds.
+A modern React application built with Vite and styled with Tailwind CSS for fast development and beautiful UI.
 
 ## Features
 
 - ⚡️ **Vite** - Fast build tool with instant HMR (Hot Module Replacement)
 - ⚛️ **React 19** - Latest React with JSX support
-- 🎨 **CSS** - Pre-configured CSS styling
+- 🎨 **Tailwind CSS** - Utility-first CSS framework for rapid UI development
 - 🔧 **ESLint** - Code linting with React-specific rules
 - 📦 **npm** - Package management
+- 📱 **Responsive Design** - Mobile-first approach with Tailwind's responsive utilities
 
 ## Getting Started
 
@@ -22,6 +23,7 @@ Dependencies have already been installed during project creation.
 ```bash
 npm install
 ```
+
 ### Development
 Start the development server:
 ```bash
@@ -46,6 +48,21 @@ Run ESLint to check code quality:
 ```bash
 npm run lint
 ```
+
+## Tailwind CSS
+
+This project is configured with Tailwind CSS v4. The configuration includes:
+
+- **Base styles**: Reset and normalize CSS
+- **Components**: Reusable component classes
+- **Utilities**: Low-level utility classes
+- **Responsive design**: Mobile-first breakpoints
+- **Modern features**: Gradients, shadows, animations
+
+### Tailwind Configuration
+- `tailwind.config.js` - Tailwind configuration
+- `postcss.config.js` - PostCSS configuration
+- `src/index.css` - Tailwind directives
 
 ## Project Structure
 ```
